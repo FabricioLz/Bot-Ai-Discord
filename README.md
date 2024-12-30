@@ -25,11 +25,7 @@ Configurações obrigatórias:
   Substitua TOKEN pelo token do seu bot no Discord.
   Substitua ID pelo ID do canal onde o bot será ativo.
 
-📚 Como Usar
-  Clone este repositório: git clone https://github.com/seu-usuario/seu-repositorio.git
-  cd seu-repositorio
-
-Configure as variáveis obrigatórias no código:
+📚 Configure as variáveis obrigatórias no código:
 
   BOT_TOKEN: Token do bot do Discord.
   API-KEY: Chave da API Prodia.
