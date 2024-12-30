@@ -8,8 +8,6 @@ prodia = Prodia(
 )
 translator = Translator()
 
-
-
 BOT_TOKEN = "TOKEN"
 CHANNEL_ID = ID
 
