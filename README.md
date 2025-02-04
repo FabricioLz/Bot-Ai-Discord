@@ -30,6 +30,6 @@ Este bot do Discord permite que os usuários **gerem imagens automaticamente** a
 4. A API gera uma imagem baseada no prompt  
 5. O bot envia a **URL da imagem gerada** no chat  
 
-![image](https://github.com/user-attachments/assets/4b578076-7358-4741-88b0-394966dc3ae2)
+![image](https://github.com/user-attachments/assets/63ef0314-9c0f-436c-9766-52148bfe4f6c)
 
 ---
