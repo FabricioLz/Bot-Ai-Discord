@@ -1,4 +1,4 @@
-# 🤖 Bot de Geração de Imagens com Prodia e Tradução Automática  
+# 🤖 Bot de Geração de Imagens com Prodia 
 
 ## 📌 Sobre o Projeto  
 Este bot do Discord permite que os usuários **gerem imagens automaticamente** a partir de um **prompt de texto**. Ele utiliza:  
