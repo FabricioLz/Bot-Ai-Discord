@@ -1,36 +1,35 @@
-Brita 
+# 🤖 Bot de Geração de Imagens com Prodia e Tradução Automática  
 
-Este é um bot do Discord que utiliza a API da Prodia para gerar imagens baseadas em prompts fornecidos pelos usuários. Ele também usa o Google Translate para traduzir os prompts de português para inglês, garantindo uma integração mais acessível e prática.
+## 📌 Sobre o Projeto  
+Este bot do Discord permite que os usuários **gerem imagens automaticamente** a partir de um **prompt de texto**. Ele utiliza:  
+- **Prodia API** para gerar imagens  
+- **Google Translate** para traduzir prompts de **português para inglês**  
+- **Discord.py** para integração com o Discord  
 
-🚀 Funcionalidades
-  Geração de imagens: Gera imagens com base em descrições de texto fornecidas pelos usuários.
-  Tradução automática: Traduz automaticamente os prompts do português para o inglês, facilitando o uso por falantes de português.
-  Resposta instantânea: Envia o link da imagem gerada diretamente no canal do Discord.
+---
 
-Tecnologias Utilizadas
-  Discord.py: Biblioteca para criar bots no Discord.
-  Prodia API: Serviço de geração de imagens baseadas em inteligência artificial.
-  Googletrans: Biblioteca para tradução automática.
+## ⚙️ Funcionalidades  
+✅ **Geração de imagens** com base em um prompt fornecido pelo usuário  
+✅ **Tradução automática** prompt português   
 
-📋 Pré-requisitos
-  Python 3.8 ou superior
-  Bibliotecas Python necessárias:
-  discord.py
-  prodiapy
-  googletrans
-Para instalar as dependências, execute: pip install discord.py prodiapy googletrans==4.0.0-rc1
 
-Configurações obrigatórias:
-  Substitua API-KEY pela sua chave da API Prodia.
-  Substitua TOKEN pelo token do seu bot no Discord.
-  Substitua ID pelo ID do canal onde o bot será ativo.
+---
 
-📚 Configure as variáveis obrigatórias no código:
+## 🛠️ Tecnologias Utilizadas  
+- **Python**  
+- **Discord.py**  
+- **Prodia API**  
+- **Google Translate API**  
 
-  BOT_TOKEN: Token do bot do Discord.
-  API-KEY: Chave da API Prodia.
-  CHANNEL_ID: ID do canal no Discord.
-  Execute o bot: python bot.py
+---
 
-No Discord, use o comando !imagine seguido de um prompt:!imagine Um pôr do sol em uma praia tropical
-O bot traduzirá o prompt, e gerará a imagem e enviará a imagem no canal.
+## 🚀 Como Funciona?  
+1. O usuário digita `!imagine <descrição da imagem>` no Discord  
+2. O bot traduz o prompt do português para o inglês  
+3. O bot envia o prompt traduzido para a API do **Prodia**  
+4. A API gera uma imagem baseada no prompt  
+5. O bot envia a **URL da imagem gerada** no chat  
+
+![image](https://github.com/user-attachments/assets/4b578076-7358-4741-88b0-394966dc3ae2)
+
+---
